@@ -1,0 +1,105 @@
+.Bento-box-top-image{
+    height: 400px;
+    width: 954px;
+    margin: 21px;
+    border-radius: 11px;
+    background-image: url('/top.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin:0 2rem -1.2rem;
+        font-weight: 900;
+        font-size: 6.5rem;
+        text-transform: uppercase;
+        color: #f3f3f3;
+    }
+}
+
+.Bento-box-left-segment{
+    width: 467px;
+    height: 424px;
+    
+    .left-top-flex{
+        display: flex;
+        gap: 20px;
+        
+        .bento-box-left-section-small{
+            width: 224px;
+            height: 178px;
+            border-radius: 11px;
+            background-color: #31304D;
+
+            &:hover {
+                transform: rotateX(5deg) rotateY(10deg);
+                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            }
+        }
+        
+    }
+    
+    .bento-box-left-section-elongated{
+        height: 103px;
+        width: 467px;
+        margin-top: 20px;
+        border-radius: 11px;
+        background-color: #31304D;
+        
+        &:hover {
+            transform: rotateX(5deg) rotateY(10deg);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    .bento-box-left-section-elongated-break{
+        display: flex;
+        gap: 20px;
+
+        .bento-box-left-section-elongated-break-section{
+            height: 103px;
+            width: 223.4px;
+            margin-top: 20px;
+            border-radius: 11px;
+            background-color: #31304D;
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+
+            img{
+                height: 40px;
+                margin-right: 20px;
+            }
+            
+            &:hover {
+                transform: rotateX(5deg) rotateY(10deg);
+                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+                font-size: 20px;
+                img{
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+.Bento-box-right-segment{
+    width: 467px;
+    height: 424px;
+
+    .bento-box-right-section-elongated{
+        height: 202px;
+        width: 467px;
+        margin-bottom: 20px;
+        border-radius: 11px;
+        background-color: #31304D;
+
+        &:hover {
+            transform: rotateX(5deg) rotateY(10deg);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
