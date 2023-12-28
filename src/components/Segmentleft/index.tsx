@@ -8,7 +8,9 @@ const Index = () => {
                 <div className="bento-box-left-section-small"></div>
                 <div className="bento-box-left-section-small"></div>
             </div>
-            <div className="bento-box-left-section-elongated"></div>
+            <div className="bento-box-left-section-elongated">
+                ss
+            </div>
             <div className="bento-box-left-section-elongated-break">
                 <div className="bento-box-left-section-elongated-break-section">
                     <img src="./linkedin.png" alt="" />

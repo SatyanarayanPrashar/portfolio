@@ -1,5 +1,5 @@
-.Bento-box-top-image{
-    height: 400px;
+.Bento-box-top-image {
+    height: 300px;
     width: 954px;
     margin: 21px;
     border-radius: 11px;
@@ -13,22 +13,23 @@
 
     h1 {
         margin:0 2rem -1.2rem;
+        // padding: -2rem;
         font-weight: 900;
         font-size: 6.5rem;
         text-transform: uppercase;
-        color: #f3f3f3;
+        color: #E4F1FE;
     }
 }
 
-.Bento-box-left-segment{
+.Bento-box-left-segment {
     width: 467px;
     height: 424px;
-    
-    .left-top-flex{
+
+    .left-top-flex {
         display: flex;
         gap: 20px;
-        
-        .bento-box-left-section-small{
+
+        .bento-box-left-section-small {
             width: 224px;
             height: 178px;
             border-radius: 11px;
@@ -39,27 +40,38 @@
                 box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
             }
         }
-        
+
     }
-    
-    .bento-box-left-section-elongated{
+
+    .bento-box-left-section-elongated {
         height: 103px;
-        width: 467px;
         margin-top: 20px;
         border-radius: 11px;
         background-color: #31304D;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, font-size 0.3s ease;
+        padding-left: 2rem;
         
+        h1 {
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: -7px;
+            margin-left: -5px;
+            transition: opacity 0.3s ease;
+        }
+
         &:hover {
-            transform: rotateX(5deg) rotateY(10deg);
+            cursor: pointer;
+            transform: rotateX(5deg) rotateY(7deg);
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            font-size: 20px;
         }
     }
 
-    .bento-box-left-section-elongated-break{
+    .bento-box-left-section-elongated-break {
         display: flex;
         gap: 20px;
 
-        .bento-box-left-section-elongated-break-section{
+        .bento-box-left-section-elongated-break-section {
             height: 103px;
             width: 223.4px;
             margin-top: 20px;
@@ -68,17 +80,21 @@
             display: flex;
             align-items: center;
             padding: 0px 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, font-size 0.3s ease, img 0.3s ease;
 
-            img{
+            img {
                 height: 40px;
                 margin-right: 20px;
+                transition: height 0.3s ease;
             }
-            
+
             &:hover {
+                cursor: pointer;
                 transform: rotateX(5deg) rotateY(10deg);
                 box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
                 font-size: 20px;
-                img{
+
+                img {
                     height: 50px;
                 }
             }
@@ -86,20 +102,65 @@
     }
 }
 
-.Bento-box-right-segment{
+.Bento-box-right-segment {
     width: 467px;
     height: 424px;
 
-    .bento-box-right-section-elongated{
+    .bento-box-right-section-elongated {
         height: 202px;
-        width: 467px;
+        // width: 467px;
         margin-bottom: 20px;
-        border-radius: 11px;
         background-color: #31304D;
+        border-radius: 11px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, font-size 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        
+        h1 {
+            font-size: 70px;
+            margin-top: 10px;
+            margin-bottom: -7px;
+            margin-left: -5px;
+            transition: opacity 0.3s ease;
+        }
+        .disapear {
+            opacity: 0.8;
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 17px;
+        }
+        
+        .additional-content {
+            opacity: 0;
+            // transition: opacity 0.3s ease, transform 0.3s ;
+            transform: translateY(-100%) scaleY(0);
+            margin-top: 10px;
+            
+            img{
+                opacity: 1;
+                height: 40px;
+                margin-right: 17px;
+                transition: height 0.3s ease;
+                border-radius: 11px;
+
+            }
+        }
 
         &:hover {
-            transform: rotateX(5deg) rotateY(10deg);
+            cursor: pointer;
+            transform: rotateX(5deg) rotateY(7deg);
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            font-size: 20px;
+
+            h1 {opacity: 0.4;}
+            .disapear{opacity: 0;}
+
+            .additional-content {
+                opacity: 1;
+                margin-top: -2.7rem;
+                transform: translateY(0) scaleY(1);
+            }
         }
     }
 }

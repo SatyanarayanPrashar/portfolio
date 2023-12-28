@@ -1,12 +1,12 @@
 .tech-box-segment{
-    margin-top: 70px;
-    background-color: #31304D;
+    margin: 70px;
+    // background-color: #31304D;
+    padding: 20px;
+    border-radius: 11px;
 
     img{
         margin: 20px;
-        padding: 20px;
         background-color: #F0ECE5;
-        border-radius: 11px;
         height: 71px;
     }
 }

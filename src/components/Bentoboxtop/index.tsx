@@ -5,10 +5,7 @@ const Index = () => {
     return (
         <div className="Bento-box-top-image">
             <h1>
-                Satyanarayan
-            </h1>
-            <h1>
-                Prashar
+                Satyanarayan Prashar
             </h1>
         </div>
     )
