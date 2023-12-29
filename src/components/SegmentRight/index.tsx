@@ -4,6 +4,9 @@ const Index = () => {
 
     return (
         <div className="Bento-box-right-segment">
+            <div className="bento-box-right-section-about">
+
+            </div>
             <div className="bento-box-right-section-elongated">
                 <h1>Experiences</h1>
                 <div className="disapear">

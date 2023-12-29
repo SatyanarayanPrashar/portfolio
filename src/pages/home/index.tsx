@@ -8,7 +8,7 @@ const Index = () => {
     return (
     <>
         <div className="home">
-            <BentoBox/>
+            {/* <BentoBox/> */}
             <div className="bento-segments">
                 <BentoLeftSection/>
                 <BentoRightSection/>
