@@ -9,7 +9,12 @@ const Index = () => {
                 <div className="bento-box-left-section-small"></div>
             </div>
             <div className="bento-box-left-section-elongated">
-                ss
+                <h1>Projects</h1>
+                <div className="additional-content">
+                    <div className="slant-one"></div>
+                    <div className="slant-two"></div>
+                    <div className="slant-three"></div>
+                </div>
             </div>
             <div className="bento-box-left-section-elongated-break">
                 <div className="bento-box-left-section-elongated-break-section">
