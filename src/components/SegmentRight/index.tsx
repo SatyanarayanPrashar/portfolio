@@ -5,7 +5,12 @@ const Index = () => {
     return (
         <div className="Bento-box-right-segment">
             <div className="bento-box-right-section-about">
-
+                <h1>
+                    Satyanarayan <br /> Prashar
+                </h1>
+                <div className="disapear">
+                    An engineering student with an innovative and entrepreneurial mindset, I bring a meticulous attention to detail, high motivation, and a strong commitment to continuous learning and meaningful contribution.
+                </div>
             </div>
             <div className="bento-box-right-section-elongated">
                 <h1>Experiences</h1>

@@ -107,9 +107,9 @@
         h1 {
             position: absolute;
             top: 27%;
-            left: 10rem;
+            left: 7.8rem;
             transform: translate(-50%, -50%);
-            font-size: 70px;
+            font-size: 50px;
             margin-top: 0px;
             transition: opacity 0.3s ease;
             z-index: 1;
@@ -189,6 +189,21 @@
         margin-bottom: 20px;
         border-radius: 11px;
         background-color: #31304D;
+        padding-left: 2rem;
+
+        h1 {
+            font-size: 50px;
+            margin-top: 10px;
+            margin-bottom: -7px;
+            margin-left: -5px;
+            transition: opacity 0.3s ease;
+        }
+        .disapear {
+            opacity: 0.8;
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
     }
 
     .bento-box-right-section-elongated {
@@ -203,7 +218,7 @@
         padding-left: 2rem;
         
         h1 {
-            font-size: 70px;
+            font-size: 50px;
             margin-top: 10px;
             margin-bottom: -7px;
             margin-left: -5px;
@@ -225,6 +240,7 @@
                 opacity: 1;
                 height: 20px;
                 margin-right: 17px;
+                margin-top: 17px;
                 transition: height 0.3s ease;
                 border-radius: 11px;
             }
